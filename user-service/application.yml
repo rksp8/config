@@ -1,3 +1,10 @@
 spring:
   application:
     name: user-service
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1020310925623-9dr91uhg10360o6nm1oaqeg38lmtvahi.apps.googleusercontent.com
+            client-secret: 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
